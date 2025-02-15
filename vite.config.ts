@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/loja/', // Substitua 'loja' pelo nome do repositório no GitHub
+  base: 'https://ramonlim92.github.io/loja/', 
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
